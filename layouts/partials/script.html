@@ -3,6 +3,11 @@
   feather.replace()
 </script>
 
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/magula.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
 {{ if eq .Site.Params.includeBootstrapJs true }}
 <script src="{{ "js/jquery-3.3.1.slim.min.js" | absURL }}"></script>
 <script src="{{ "js/bootstrap.bundle.min.js" | absURL }}"></script>
